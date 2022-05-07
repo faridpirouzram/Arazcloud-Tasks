@@ -6,7 +6,7 @@
   ### install PS4WP
   cd srv/www/wordpress/wp-content and clone https://github.com/kevinoid/postgresql-for-wordpress.git .
   create database/username/password and grant all together.
-  ### Connect PS4WP To WordPress
+  ### Connect PS4WP
   sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php and add data base details to wp-config.php file.
   Rename Pg4wp to pg4wp ( also you can ‘nano db.php’ to understand name of directory you should mv Pg4wp ).
   ### Nginx and Certificate
