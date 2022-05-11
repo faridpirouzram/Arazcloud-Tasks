@@ -15,3 +15,15 @@ for ssl certificate `sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -k
 install  install php7.4-fpm .
 reload nginx and check result.
 ## Task-2
+In this task first you should touch one html file with green background.
+`touh index.html`
+`
+<!DOCTYPE html>
+<html>
+<body style="background-color:#008000;">
+
+<h1>No Problme every thing will be OK </h1>
+
+</body>
+</html>
+`
